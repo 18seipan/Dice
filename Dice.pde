@@ -9,8 +9,8 @@ void setup() {
 void draw() {
   background(255, 255, 255);
   int sum = 0;
-  for (int j = 1; j <= 5; j++) { //Creates the Array
-    for (int i = 1; i <= 5; i++) { //Creates the Array Prt. 2
+  for (int j = 1; j <= 5; j++) { //Creates the Array (Height)
+    for (int i = 1; i <= 5; i++) { //Creates the Array Prt.2 (Width)
       Die bob = new Die(i * 80, j * 80);
       bob.show();
       bob.roll();
